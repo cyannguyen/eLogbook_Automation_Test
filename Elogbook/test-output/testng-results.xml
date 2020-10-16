@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="15" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58219" started-at="2020-10-16T08:03:22Z" finished-at="2020-10-16T08:04:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58219" started-at="2020-10-16T08:03:22Z" finished-at="2020-10-16T08:04:20Z">
+      <class name="ElogbookStandalone.TestingI1">
+        <test-method status="PASS" signature="BoTrongThongtindangnhap()[pri:1, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="BoTrongThongtindangnhap" duration-ms="11878" started-at="2020-10-16T08:03:22Z" finished-at="2020-10-16T08:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BoTrongThongtindangnhap -->
+        <test-method status="PASS" signature="kiemtracauthongbaokhithongtindangnhapbotrong()[pri:2, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="kiemtracauthongbaokhithongtindangnhapbotrong" duration-ms="66" started-at="2020-10-16T08:03:34Z" finished-at="2020-10-16T08:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemtracauthongbaokhithongtindangnhapbotrong -->
+        <test-method status="PASS" signature="Nhapmatkhaubotrongthongtintendangnhap()[pri:3, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Nhapmatkhaubotrongthongtintendangnhap" duration-ms="257" started-at="2020-10-16T08:03:34Z" finished-at="2020-10-16T08:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nhapmatkhaubotrongthongtintendangnhap -->
+        <test-method status="FAIL" signature="kiemtracauthongbaokhibotrongmatkhau()[pri:4, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="kiemtracauthongbaokhibotrongmatkhau" duration-ms="58" started-at="2020-10-16T08:03:34Z" finished-at="2020-10-16T08:03:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Mật khẩu không được bỏ trống] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Mật khẩu không được bỏ trống] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at ElogbookStandalone.TestingI1.kiemtracauthongbaokhibotrongmatkhau(TestingI1.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kiemtracauthongbaokhibotrongmatkhau -->
+        <test-method status="PASS" signature="Nhapsaitendangnhaphoacmatkhau()[pri:6, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Nhapsaitendangnhaphoacmatkhau" duration-ms="5045" started-at="2020-10-16T08:03:34Z" finished-at="2020-10-16T08:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nhapsaitendangnhaphoacmatkhau -->
+        <test-method status="PASS" signature="Cauthongbaokhisaitendangnhaphoacmatkhau()[pri:7, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Cauthongbaokhisaitendangnhaphoacmatkhau" duration-ms="46" started-at="2020-10-16T08:03:40Z" finished-at="2020-10-16T08:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cauthongbaokhisaitendangnhaphoacmatkhau -->
+        <test-method status="PASS" signature="Nhapdungthongtindangnhapvamatkhau()[pri:8, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Nhapdungthongtindangnhapvamatkhau" duration-ms="3130" started-at="2020-10-16T08:03:40Z" finished-at="2020-10-16T08:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nhapdungthongtindangnhapvamatkhau -->
+        <test-method status="PASS" signature="VaoCauhinh()[pri:9, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="VaoCauhinh" duration-ms="4117" started-at="2020-10-16T08:03:43Z" finished-at="2020-10-16T08:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VaoCauhinh -->
+        <test-method status="PASS" signature="Xoabackground()[pri:11, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Xoabackground" duration-ms="170" started-at="2020-10-16T08:03:47Z" finished-at="2020-10-16T08:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Xoabackground -->
+        <test-method status="PASS" signature="Thembackground()[pri:12, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Thembackground" duration-ms="175" started-at="2020-10-16T08:03:47Z" finished-at="2020-10-16T08:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thembackground -->
+        <test-method status="PASS" signature="Themiconmobile()[pri:13, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Themiconmobile" duration-ms="130" started-at="2020-10-16T08:03:47Z" finished-at="2020-10-16T08:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Themiconmobile -->
+        <test-method status="PASS" signature="Xoaconmobile()[pri:14, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Xoaconmobile" duration-ms="126" started-at="2020-10-16T08:03:47Z" finished-at="2020-10-16T08:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Xoaconmobile -->
+        <test-method status="PASS" signature="Luudulieudongbo()[pri:15, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Luudulieudongbo" duration-ms="94" started-at="2020-10-16T08:03:47Z" finished-at="2020-10-16T08:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Luudulieudongbo -->
+        <test-method status="FAIL" signature="Khiphienbandangnhaptimeout()[pri:16, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Khiphienbandangnhaptimeout" duration-ms="30135" started-at="2020-10-16T08:03:48Z" finished-at="2020-10-16T08:04:18Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.10 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-388EKTU', ip: '192.168.64.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 11cd5e16-70de-43ec-9124-2879a49370a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.10 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-388EKTU', ip: '192.168.64.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 11cd5e16-70de-43ec-9124-2879a49370a6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at ElogbookStandalone.TestingI1.Khiphienbandangnhaptimeout(TestingI1.java:111)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-388EKTU', ip: '192.168.64.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Avenue/AppData/Local/Temp/anonymous5957735747563447282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Avenue/AppData/Local/Temp/anonymous5957735747563447282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Avenue/AppData/Local/Temp/anonymous5957735747563447282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Avenue/AppData/Local/Temp/anonymous5957735747563447282webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Khiphienbandangnhaptimeout -->
+        <test-method status="PASS" signature="Dangxuat()[pri:20, instance:ElogbookStandalone.TestingI1@29b5cd00]" name="Dangxuat" duration-ms="2693" started-at="2020-10-16T08:04:18Z" finished-at="2020-10-16T08:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dangxuat -->
+      </class> <!-- ElogbookStandalone.TestingI1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
